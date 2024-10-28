@@ -1,0 +1,71 @@
+Metadata for manuscript entitled “Invasive plants and their root traits are linked to the homogenization of soil microbial communities across the United States.”
+
+Repository description:
+R scripts and data used to analyze (1) how root traits differ between native and invasive plants, (2) the differences in microbial communities between invaded and uninvaded plots, and (3) what root traits of invasive and native plants correlate with soil microbial communities.
+
+Authors (co-first authors): 
+Gabriela C. Nunez-Mir
+Department of Biological Sciences, University of Illinois, Chicago, IL 60607, USA
+gnm@uic.edu
+
+Matthew A. McCary
+Department of BioSciences, Rice University, Houston, TX 77005, USA
+mm160@rice.edu
+
+File list (files can be found at https://github.com/mmccar26/invasive_roots_and_soil_microbes):
+
+Question 1
+Question 1 Analysis.R
+Traits comparisons_Data lower 95.12.21.23.csv
+Traits comparisons_Data upper 95.12.21.23.csv
+Traits comparisons_Data.12.20.23.csv
+
+Question 2
+dataForOrdination.csv
+Figure 3a.R
+Figure 3b.R
+Included PLFA Variables.csv
+
+Question 3
+Analyses in Supporting Information.R
+CWM_traits_data.csv
+Figure 4a.R
+Figure 4b&c.R
+Neon_soil_subset.csv
+Paired_consecutiveyears_traitsandsoilcomposition.csv
+Table 2.R
+
+File descriptions (alphabetical order):
+
+Analyses in Supporting Information.R:  The R script that performs the analysis that is shown in the Supplemental Appendix.
+
+CWM_traits_data.csv:  Data on the community-weighed means of root traits and plant cover according to plot, year, and invasion status.
+
+dataForOrdination.csv:  The underlying data used to create the code for Figures 3a and 3b.
+
+Figure 3a.R:  The R script to make Figure 3a.
+
+Figure 3b.R:  The R script to make Figure 3b and the underlying analysis for Question 2.
+
+Figure 4a.R:  The underlying R script to perform the variation partitioning analysis shown in Figure 4a. Also, this file has the 
+R code to reproduce Figure 4a.
+
+Figure 4b&c.R:  The underlying R script to perform the Redundancy Analysis provided in Figure 4b and 4c; this also has the R code to reproduce Figures 4b and 4c.
+
+Included PLFA Variables.csv:  The list of PLFA signatures used in the main analysis for Questions 2 and 3.
+
+Neon_soil_subset.csv:  PLFA and soil properties of the data according to plot, year, and habitat type.
+
+Paired_consecutiveyears_traitsandsoilcomposition.csv:  Data underlying the paired longitudinal analysis to see how the root traits and microbial composition correlated over time.
+
+Question 1 Analysis.R:  The underlying R code to perform the analysis that determined the differences between native and invasive plants regarding root traits. This code requires importing file “Traits comparisons_Data.12.20.23.csv” to run.
+
+Table 2.R:  The underlying R script to reproduce the analysis shown in Table 2 of the main text.
+
+Traits comparisons_Data lower 95.12.21.23.csv:  Data associated with the lower 95% of trait values to compare between native and invasive plants.
+
+Traits comparisons_Data upper 95.12.21.23.csv:  Data associated with the upper 95% of trait values to compare between native and invasive plants.
+
+Traits comparisons_Data.12.20.23.csv:  Main data to analyze the differences in root trait values for native and invasive plants.
+
+Note: All R files must be imported into your working directory for the analysis to work. 
